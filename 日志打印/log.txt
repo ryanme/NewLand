@@ -1,0 +1,78 @@
+2019-03-18 16:04:58,992 - __main__ - INFO - Start print log
+2019-03-18 16:04:58,993 - __main__ - WARNING - Something maybe fail.
+2019-03-18 16:04:58,993 - __main__ - ERROR - Faild to open sklearn.txt from logger.error
+Traceback (most recent call last):
+  File "D:/Python Project/NewLand/learn_logging/logging_tracking.py", line 25, in <module>
+    open("sklearn.txt", "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'sklearn.txt'
+2019-03-18 16:04:58,993 - __main__ - INFO - Finish
+2019-03-18 16:05:23,144 - __main__ - INFO - Start print log
+2019-03-18 16:05:23,144 - __main__ - WARNING - Something maybe fail.
+2019-03-18 16:05:23,144 - __main__ - ERROR - Faild to open sklearn.txt from logger.error
+Traceback (most recent call last):
+  File "D:/Python Project/NewLand/learn_logging/logging_tracking.py", line 26, in <module>
+    open("sklearn.txt", "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'sklearn.txt'
+2019-03-18 16:05:23,145 - __main__ - INFO - Finish
+2019-03-18 16:06:32,746 - __main__ - INFO - Start print log
+2019-03-18 16:06:32,746 - __main__ - WARNING - Something maybe fail.
+2019-03-18 16:06:32,746 - __main__ - ERROR - Faild to open sklearn.txt from logger.error
+Traceback (most recent call last):
+  File "D:/Python Project/NewLand/learn_logging/logging_tracking.py", line 26, in <module>
+    open("sklearn.txt", "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'sklearn.txt'
+2019-03-18 16:06:32,747 - __main__ - ERROR - Failed to open sklearn.txt from logger.exception
+Traceback (most recent call last):
+  File "D:/Python Project/NewLand/learn_logging/logging_tracking.py", line 26, in <module>
+    open("sklearn.txt", "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'sklearn.txt'
+2019-03-18 16:06:32,747 - __main__ - INFO - Finish
+2019-03-18 16:06:59,396 - __main__ - INFO - Start print log
+2019-03-18 16:06:59,397 - __main__ - WARNING - Something maybe fail.
+2019-03-18 16:06:59,397 - __main__ - ERROR - Failed to open sklearn.txt from logger.exception
+Traceback (most recent call last):
+  File "D:/Python Project/NewLand/learn_logging/logging_tracking.py", line 26, in <module>
+    open("sklearn.txt", "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'sklearn.txt'
+2019-03-18 16:06:59,397 - __main__ - INFO - Finish
+2019-03-18 16:07:08,201 - __main__ - INFO - Start print log
+2019-03-18 16:07:08,201 - __main__ - WARNING - Something maybe fail.
+2019-03-18 16:07:08,202 - __main__ - ERROR - Faild to open sklearn.txt from logger.error
+Traceback (most recent call last):
+  File "D:/Python Project/NewLand/learn_logging/logging_tracking.py", line 26, in <module>
+    open("sklearn.txt", "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'sklearn.txt'
+2019-03-18 16:07:08,202 - __main__ - INFO - Finish
+2019-03-18 16:24:34,799 - mainModule - INFO - creating an instance of subModule.subModuleClass
+2019-03-18 16:24:49,927 - mainModule - INFO - creating an instance of subModule.subModuleClass
+2019-03-18 16:24:49,927 - mainModule.sub.module - INFO - creating an instance in SubModuleClass
+2019-03-18 16:24:49,927 - mainModule - INFO - calling subModule.subModuleClass.doSomething
+2019-03-18 16:24:49,927 - mainModule.sub.module - INFO - do something in SubModule
+2019-03-18 16:24:49,927 - mainModule.sub.module - INFO - finish something in SubModuleClass
+2019-03-18 16:24:49,927 - mainModule - INFO - done with  subModule.subModuleClass.doSomething
+2019-03-18 16:24:49,928 - mainModule - INFO - calling subModule.some_function
+2019-03-18 16:25:01,906 - mainModule - INFO - creating an instance of subModule.subModuleClass
+2019-03-18 16:25:01,906 - mainModule.sub.module - INFO - creating an instance in SubModuleClass
+2019-03-18 16:25:01,906 - mainModule - INFO - calling subModule.subModuleClass.doSomething
+2019-03-18 16:25:01,906 - mainModule.sub.module - INFO - do something in SubModule
+2019-03-18 16:25:01,906 - mainModule.sub.module - INFO - finish something in SubModuleClass
+2019-03-18 16:25:01,906 - mainModule - INFO - done with  subModule.subModuleClass.doSomething
+2019-03-18 16:25:01,906 - mainModule - INFO - calling subModule.some_function
+2019-03-18 16:25:16,002 - mainModule - INFO - creating an instance of subModule.subModuleClass
+2019-03-18 16:25:16,002 - mainModule.sub.module - INFO - creating an instance in SubModuleClass
+2019-03-18 16:25:16,002 - mainModule - INFO - calling subModule.subModuleClass.doSomething
+2019-03-18 16:25:16,002 - mainModule.sub.module - INFO - do something in SubModule
+2019-03-18 16:25:16,002 - mainModule.sub.module - INFO - finish something in SubModuleClass
+2019-03-18 16:25:16,002 - mainModule - INFO - done with  subModule.subModuleClass.doSomething
+2019-03-18 16:25:16,002 - mainModule - INFO - calling subModule.some_function
+2019-03-18 16:25:16,002 - mainModule.sub - INFO - call function some_function
+2019-03-18 16:25:16,002 - mainModule - INFO - done with subModule.some_function
+2019-03-19 10:26:14,333 - mainModule - INFO - creating an instance of subModule.subModuleClass
+2019-03-19 10:26:14,333 - mainModule.sub.module - INFO - creating an instance in SubModuleClass
+2019-03-19 10:26:14,333 - mainModule - INFO - calling subModule.subModuleClass.doSomething
+2019-03-19 10:26:14,333 - mainModule.sub.module - INFO - do something in SubModule
+2019-03-19 10:26:14,333 - mainModule.sub.module - INFO - finish something in SubModuleClass
+2019-03-19 10:26:14,333 - mainModule - INFO - done with  subModule.subModuleClass.doSomething
+2019-03-19 10:26:14,333 - mainModule - INFO - calling subModule.some_function
+2019-03-19 10:26:14,333 - mainModule.sub - INFO - call function some_function
+2019-03-19 10:26:14,333 - mainModule - INFO - done with subModule.some_function
